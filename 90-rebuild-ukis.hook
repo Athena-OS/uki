@@ -26,4 +26,4 @@ Target = /boot/vmlinuz-linux*
 [Action]
 Description = Rebuilding and signing Unified Kernel Image(s) for Secure Boot...
 When = PostTransaction
-Exec = /usr/local/bin/rebuild-ukis
+Exec = /usr/bin/rebuild-ukis
